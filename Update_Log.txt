@@ -1,0 +1,65 @@
+========================================================================
+$File: Update_Log.txt $
+$Creator: Jen-Chieh Shen <jcs090218@gmail.com> $
+$Date: 2016-10-14 $
+$Notice: See LICENSE.txt for modification and distribution information
+                  Copyright (c) 2016 by Shen, Jen-Chieh $
+========================================================================
+
+
+2016-11-03
+* JCSPyGm_SceneManager support the initialize and clean scene
+ function call. (JCSPyGm)
+* JCSPyGm_Scene provide the initialize and clean scene
+ function for scripting layer. (JCSPyGm)
+* JCSPyGm_Util update with more interface function. (JCSPyGm)
+
+2016-11-02
+* JCSPyGm_Collision implemented. (JCSPyGm)
+* JCSPyGm_Animator implemented. (JCSPyGm)
+* JCSPyGm_Physics implemented. (JCSPyGm)
+
+2016-10-31
+* JCSPyGm_SceneManager completed. (JCSPyGm)
+* JCSPyGm_GameObject fade in/out effect added. (JCSPyGm)
+* Add camera offsets. (Example Games)
+* JCSPyGm_CollisionManager implemented. (JCSPyGm)
+* JCSPyGm_Collision working on it. (JCSPyGm)
+
+2016-10-30
+* JCSPyGm_SoundManager implemented. (JCSPyGm)
+* Implemented system data. (JCSPyGm)
+* Use sound in game. (Example Games)
+
+2016-10-29
+* Smooth camera implemented. (JCSPyGm)
+* Camera min and max distance implemented. (JCSPyGm)
+
+2016-10-28
+* JCSPyGm_Sprite flip x and flip y functionaly. (JCSPyGm)
+* Camera implemented. (Example Games)
+* Camera function with friction. (Example Games)
+* Player implemented. (Example Games)
+
+2016-10-27
+* JCSPyGm_Application complete implemented. (JCSPyGm)
+* JCSPyGm_Input implemented. (JCSPyGm)
+* JCSPyGm_Debug implemented. (JCSPyGm)
+* JCSPyGm_Sprite implemented. (JCSPyGm)
+* JCSPyGm_Animation implemented. (JCSPyGm)
+* JCSPyGm_Scene implemented. (JCSPyGm)
+* JCSPyGm_Interface implemented. (JCSPyGm)
+* JCSPyGm_SceneManager implemented. (JCSPyGm)
+* JCSPyGm_GameObject implemented. (JCSPyGm)
+* JCSPyGm_Camera implemented. (JCSPyGm) 
+
+2016-10-20
+* JCSPyGm_Application implemented but not 
+ complete yet. (JCSPyGm)
+* JCSPyGm_Window implemented. (JCSPyGm)
+
+2016-10-19
+* Have the lib structure setup. (JCSPyGm)
+
+2016-10-14
+* Have the basic framework outline. (JCSPyGm)
