@@ -7,6 +7,9 @@ $Notice: See LICENSE.txt for modification and distribution information
 ========================================================================
 
 
+2017-01-15
+* Export project to .egg file and test by using other project. (JCSPyGm)
+
 2016-11-03
 * JCSPyGm_SceneManager support the initialize and clean scene
  function call. (JCSPyGm)

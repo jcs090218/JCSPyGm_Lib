@@ -1,2 +1,11 @@
+/.git
+/.settings
+
+# ignore demo file
+/video
+
 # ignore lib
 /lib
+
+# ignore build info
+/jcspygm.egg-info
