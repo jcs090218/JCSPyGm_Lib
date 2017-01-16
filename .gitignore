@@ -1,6 +1,9 @@
 /.git
 /.settings
 
+# ignore demo file
+/video
+
 # ignore lib
 /lib
 
