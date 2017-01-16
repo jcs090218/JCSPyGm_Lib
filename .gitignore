@@ -9,3 +9,7 @@
 
 # ignore build info
 /jcspygm.egg-info
+
+
+# ignore compile files
+*pyc
