@@ -1,2 +1,8 @@
+/.git
+/.settings
+
 # ignore lib
 /lib
+
+# ignore build info
+/jcspygm.egg-info
