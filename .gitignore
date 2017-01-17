@@ -9,7 +9,8 @@
 
 # ignore build info
 /jcspygm.egg-info
-
+/build/lib
+/build/bdist.win32
 
 # ignore compile files
 *pyc
