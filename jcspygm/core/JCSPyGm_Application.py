@@ -41,7 +41,7 @@ class JCSPyGm_Application(object):
         self.__showFrameRate = False
         
         # set default FPS to 60
-        self.__fps = 50
+        self.__fps = 60
         
         self.__fps_step = 1.0 / self.__fps
         
@@ -49,6 +49,8 @@ class JCSPyGm_Application(object):
         
         self.__fpsCounter = 0
         self.__fpsCounterTimer = 0.0
+        
+        self.__acc_deltaTime = 0.0
         
     def run(self):
         """Program Loop."""
@@ -88,13 +90,21 @@ class JCSPyGm_Application(object):
                 
                 # Limit framerate per seconds
                 if self.__fpsTimer < self.__fps_step:
+                    self.__acc_deltaTime += deltaTime
                     continue
                 
+                # make sure at least add the delta time.
+                if self.__acc_deltaTime == 0.0:
+                    self.__acc_deltaTime = deltaTime
+                
                 # run the application for library users.
-                self._run_app(deltaTime, self.get_window().get_screen())
+                self._run_app(self.__acc_deltaTime, self.get_window().get_screen())
                 
                 # reset FPS timer 
                 self.__fpsTimer = 0.0
+                
+                # release accumulate 'delta time'.
+                self.__acc_deltaTime = 0.0
                 
                 self.__fpsCounter += 1
             else:
