@@ -2,7 +2,7 @@
 $File: README.txt $
 $Creator: Jen-Chieh Shen <jcs090218@gmail.com> $
 $Date: 2016-10-14 $
-$Revision: 1.0.0 $
+$Revision: 1.0.2 $
 $Python Version: 2.7 $
 $Version Control Page: https://github.com/jcs090218/JCSPyGm_Lib $
 $Notice: See LICENSE.txt for modification and distribution information

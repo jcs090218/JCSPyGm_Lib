@@ -7,6 +7,9 @@ $Notice: See LICENSE.txt for modification and distribution information
 ========================================================================
 
 
+2017-08-15
+* Add FPS control in the Application Layer. (JCSPyGm)
+
 2017-08-14
 * Add mouse position API function. (JCSPyGm)
 
