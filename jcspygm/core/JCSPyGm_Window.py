@@ -12,7 +12,6 @@
 from os.path import sys
 
 import pygame
-from pygame.pypm import Input
 
 from jcspygm.JCSPyGm import JCSPyGm
 from jcspygm.util.JCSPyGm_Input import JCSPyGm_Input

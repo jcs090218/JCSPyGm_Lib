@@ -66,8 +66,6 @@ class Player(JCSPyGm_GameObject):
     def update(self, deltaTime):
         """Update player game logic."""
         
-        
-        
         self.__player_movement(deltaTime);
         
         self.__process_input(deltaTime)

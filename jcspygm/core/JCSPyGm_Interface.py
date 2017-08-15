@@ -7,8 +7,6 @@
 #                     Copyright (c) 2016 by Shen, Jen-Chieh $
 #  ========================================================================
 
-from xml.dom import IndexSizeErr
-
 
 class JCSPyGm_Interface(object):
 

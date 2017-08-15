@@ -7,6 +7,8 @@
 #                     Copyright (c) 2016 by Shen, Jen-Chieh $
 #  ========================================================================
 
+import pygame
+
 
 class JCSPyGm_Input:
 
@@ -68,6 +70,18 @@ class JCSPyGm_Input:
                 return True
          
         return False
+    
+    @staticmethod
+    def get_mouse_x():
+        """Get mouse position on x-axis."""
+        pX, pY = pygame.mouse.get_pos()
+        return pX
+    
+    @staticmethod
+    def get_mouse_y():
+        """Get mouse position on x-axis."""
+        pX, pY = pygame.mouse.get_pos()
+        return pY
     
     @staticmethod
     def get_mouse_button():
