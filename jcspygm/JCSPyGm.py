@@ -12,7 +12,7 @@ import pygame
 
 class JCSPyGm:
     """Core JCSPyGm Lib"""
-
+    
     @staticmethod
     def init():
         """Initialize the JCSPyGm"""
