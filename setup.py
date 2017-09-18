@@ -11,7 +11,7 @@ setup(
     name='jcspygm',
     author='Jen-Chieh Shen',
     author_email='jcs090218@gmail.com',
-    version='1.0.0',
+    version='1.0.2',
     description='Library to make the game using PyGame API.',
     url='https://github.com/jcs090218/JCSPyGm_Lib',
     license='MIT',
