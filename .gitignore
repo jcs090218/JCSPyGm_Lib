@@ -13,4 +13,4 @@
 /build/bdist.win32
 
 # ignore compile files
-*pyc
+*.pyc
