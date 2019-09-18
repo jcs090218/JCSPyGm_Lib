@@ -4,12 +4,14 @@
 
 
 # JCSPyGm
+
 JCSPyGm is a framework provide basic 2D features and structure for
 building the a simple game. This framework uses PyGm API to communicate
 with OS layer.
 
 
 ## Features
+
 * *Animation System* - render animation frame by frame control by time.
 * *Animator System* - animator control multiple animations and can be 
 switch from one animation to another animation.
@@ -23,4 +25,5 @@ the opposite direction/velocity.
 
 
 ## Example Projects
+
 * Is already included in the project.
